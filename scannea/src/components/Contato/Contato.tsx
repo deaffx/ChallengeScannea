@@ -1,6 +1,6 @@
 import React from "react";
 import thiagoFoto from "../../assets/images/thiago.jpeg";
-import giovannaFoto from "../../assets/images/giovanna.jpg";
+import giovannaFoto from "../../assets/images/giovanna.png";
 import raphaelFoto from "../../assets/images/raphael.png";
 import "../Home/Home.css";
 import "./responsive-contato.css";
