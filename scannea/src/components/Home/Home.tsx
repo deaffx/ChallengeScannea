@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom"; // Importar o hook
 import Banner from "../../assets/images/robot.jpg";
 import IconCheck from "../../assets/images/verifica.png";
 import IconRelatorio from "../../assets/images/relatorio.png";
@@ -10,6 +11,16 @@ import "./responsive-home.css";
 
 const Home: React.FC = () => {
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#faq") {
+      const faqSection = document.getElementById("faq");
+      if (faqSection) {
+        faqSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   const handleFAQClick = (
     index: number,
