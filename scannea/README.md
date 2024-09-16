@@ -43,7 +43,7 @@ Cada componente é totalmente estilizado com arquivos CSS próprios, proporciona
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/scannea.git
+   git clone https://github.com/deaffx/ChallengeScannea.git
    ```
 
 2. Navegue até o diretório do projeto:
