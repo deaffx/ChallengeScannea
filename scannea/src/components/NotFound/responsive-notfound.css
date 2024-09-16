@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .not-found-content {
+    flex-direction: row;
+  }
+
+  .not-found-left,
+  .not-found-right {
+    max-width: 50%;
+  }
+
+  .not-found-left-title {
+    font-size: 2rem;
+  }
+
+  .not-found-left-text {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  footer .redes-sociais a img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .redes-sociais a {
+    width: 32px;
+    height: 32px;
+  }
+
+  footer .logo {
+    max-width: 100px;
+    display: block;
+  }
+
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}
