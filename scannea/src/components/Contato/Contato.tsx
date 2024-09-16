@@ -1,7 +1,7 @@
 import React from "react";
 import thiagoFoto from "../../assets/images/thiago.jpeg";
 import giovannaFoto from "../../assets/images/giovanna.jpg";
-import raphaelFoto from "../../assets/images/raphael.jpg";
+import raphaelFoto from "../../assets/images/raphael.jpeg";
 import "../Home/Home.css";
 import "./responsive-contato.css";
 
