@@ -59,7 +59,12 @@ const Contato: React.FC = () => {
                 </div>
               ))}
             </div>
-            <a href="">Repositório do GitHub</a>
+            <a
+              href="https://github.com/deaffx/ChallengeScannea"
+              target="_blank"
+            >
+              Repositório do GitHub
+            </a>
           </div>
         </div>
       </div>
